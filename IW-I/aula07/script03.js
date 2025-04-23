@@ -7,13 +7,13 @@ let imagemAtual = 1;
 
 // Função que troca a imagem
 function trocarImagem() {
-  if (imagemAtual === 1) {
-     imagem.src = "img/chuva.jpeg";
-     imagemAtual = 2;
-  } else {
-    imagem.src = "img/arcoiris.jpeg";
-    imagemAtual = 1;
-  }
+if (imagemAtual === 1) {
+imagem.src = "img/chuva.jpeg";
+imagemAtual = 2;
+} else {
+imagem.src = "img/arcoiris.jpeg";
+imagemAtual = 1;
+}
 }
 
 // Associa o evento de clique
