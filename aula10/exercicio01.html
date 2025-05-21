@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ex 01</title>
+    <title>Exercicio-01</title>
 </head>
 <body>
     <input type="text" id="caixa" placeholder="Digite um texto" onkeyup="executar()">
     <br>
-    <p>Texto rexebido é: <span id="texto"></span></p>
+    <p>Texto recebido é: <span id="texto"></span></p>
 
     <script>
         var caixa = document.getElementById("caixa");
@@ -16,13 +16,11 @@
 
         function executar(){
             var letra = caixa.value;
-            console.log(letra);
             //console.log(letra);
             texto.innerHTML = letra;
 
         }
-
     </script>
-    
+
 </body>
 </html>
